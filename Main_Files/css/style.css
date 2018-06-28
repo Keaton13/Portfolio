@@ -408,11 +408,38 @@ a:active {
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-.navbar-default .navbar-collapse,
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 1020px) and (max-width: 1024px) {
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    margin-top: 6px;
+    margin-left: 11%;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 1900px) and (max-width: 5000px) {
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    margin-top: 6px;
+    margin-left: 17%;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 760px) and (max-width: 800px) {
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    margin-top: 6px;
+    margin-left: 3%;
+  }
+}
+
+/* .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   margin-top: 6px;
   margin-left: 2%;
-}
+} */
 .navbar-default.navbar-light .close-btn .navbar-right > li > a {
   padding: 16px 18px;
 }
@@ -713,7 +740,7 @@ a:active {
 }
 
 p {
-  color: #fffdfd;
+  color: #0a0a0a;
   line-height: 24px;
   letter-spacing: 0.025em;
   font-size: 100%;
@@ -1482,14 +1509,7 @@ footer p {
     margin-left: 12px;
   }
 }
-/* Medium devices (desktops, 992px and up) */
-@media only screen and (min-width: 1020px) and (max-width: 1024px) {
-  .navbar-default .navbar-collapse,
-  .navbar-default .navbar-form {
-    margin-top: 6px;
-    margin-left: 10%;
-  }
-}
+
 
 /*------------------Keatons custom css------------------------------------*/
 
