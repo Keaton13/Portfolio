@@ -740,10 +740,10 @@ a:active {
 }
 
 p {
-  color: #0a0a0a;
+  color: #999999;
   line-height: 24px;
   letter-spacing: 0.025em;
-  font-size: 100%;
+  font-size: 80%;
   margin-top: 5%;
 }
 /* ----------------------------------------
@@ -1525,4 +1525,10 @@ footer p {
 .float-right {
   float: right;
   margin-right: 20%;
+}
+
+.github {
+    font-size: 16pt;
+    /* margin-top: 5%;
+    margin-right: 2%; */
 }
