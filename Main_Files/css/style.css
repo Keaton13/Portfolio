@@ -734,8 +734,8 @@ a:active {
 }
 /*==============CUSTOM CSS ==================*/
 .row{
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 5%;
+  margin-left: 5%;
   margin-bottom: 5%;
 }
 
@@ -970,7 +970,8 @@ p {
    -------------- 18.CLIENTS --------------
    ---------------------------------------- */
 .clients {
-  background-color: #191919;;
+  background-color: #191919;
+  font-size: 1.5em;
 }
 .clients .clients-item {
   height: 100px;
