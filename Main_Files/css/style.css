@@ -360,11 +360,11 @@ a:active {
   padding-bottom: 120px;
 }
 .pd-t-b-144 {
-  padding-top: 10%;
+  padding-top: 4%;
   /* padding-bottom: 144px; */
 }
 .pd-t-144 {
-  padding-top: 144px;
+  padding-top: 4%;
 }
 .pd-b-144 {
   padding-bottom: 144px;
@@ -734,8 +734,8 @@ a:active {
 }
 /*==============CUSTOM CSS ==================*/
 .row{
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: -15px;
+  margin-left: -15px;
   margin-bottom: 5%;
 }
 
@@ -970,8 +970,7 @@ p {
    -------------- 18.CLIENTS --------------
    ---------------------------------------- */
 .clients {
-  background-color: #191919;
-  font-size: 1.5em;
+  background-color: #191919;;
 }
 .clients .clients-item {
   height: 100px;
@@ -1551,9 +1550,12 @@ footer p {
     height: 100%;
     width: 100%;
     margin-left: 18%;
+    
   }
+  .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0;
+    margin-left: 18%;
+}
 }
 
-.sideBar {
-  font-size: 100%;
-}
+
