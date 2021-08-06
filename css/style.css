@@ -1195,6 +1195,12 @@ footer p {
 .blog-post .post-img {
   margin-bottom: 72px;
 }
+.img-responive-fuji {
+  max-width: 20% !important;
+}
+.img-responive-custom {
+  max-width: 85% !important;
+}
 .comments {
   margin-top: 72px;
 }
